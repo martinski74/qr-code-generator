@@ -126,13 +126,13 @@ const downloadQR = () => {
 .header h1 {
   font-size: 32px;
   font-weight: 700;
-  color: #1e1b4b;
+  color: #f0e8ff;
   margin: 0 0 8px 0;
 }
 
 .tagline {
   font-size: 15px;
-  color: #6b7280;
+  color: #a78bfa;
   margin: 0;
   font-weight: 400;
 }
@@ -153,21 +153,22 @@ const downloadQR = () => {
   padding: 0 48px 0 18px;
   font-size: 16px;
   font-family: 'DM Sans', sans-serif;
-  color: #1f2937;
-  background: #ffffff;
-  border: 1px solid #e5e7eb;
+  color: #f0e8ff;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(139, 92, 246, 0.3);
   border-radius: 14px;
   outline: none;
-  transition: border-color 0.25s, box-shadow 0.25s;
+  transition: border-color 0.25s, box-shadow 0.25s, background 0.25s;
 }
 
 .text-input::placeholder {
-  color: #9ca3af;
+  color: #6b7280;
 }
 
 .text-input:focus {
-  border-color: rgba(139, 92, 246, 0.5);
-  box-shadow: 0 0 0 4px rgba(139, 92, 246, 0.1);
+  border-color: rgba(139, 92, 246, 0.6);
+  box-shadow: 0 0 0 4px rgba(139, 92, 246, 0.2);
+  background: rgba(255, 255, 255, 0.12);
 }
 
 .copy-btn {
@@ -186,7 +187,7 @@ const downloadQR = () => {
 }
 
 .copy-btn:hover:not(:disabled) {
-  background: rgba(124, 58, 237, 0.08);
+  background: rgba(139, 92, 246, 0.15);
 }
 
 .copy-btn:disabled {
@@ -195,7 +196,7 @@ const downloadQR = () => {
 }
 
 .copy-btn.active .icon {
-  color: #7c3aed;
+  color: #a78bfa;
 }
 
 .icon {
@@ -209,7 +210,7 @@ const downloadQR = () => {
 
 .char-count {
   font-size: 12px;
-  color: #9ca3af;
+  color: #6b7280;
 }
 
 .generate-btn {
@@ -292,14 +293,14 @@ const downloadQR = () => {
   align-items: center;
   justify-content: center;
   padding: 16px;
-  background: rgba(255, 255, 255, 0.6);
+  background: rgba(255, 255, 255, 0.06);
   border-radius: 16px;
-  border: 1px dashed #d1d5db;
+  border: 1px dashed rgba(139, 92, 246, 0.3);
 }
 
 .qr-placeholder span {
   font-size: 14px;
-  color: #9ca3af;
+  color: #6b7280;
   text-align: center;
   line-height: 1.5;
 }
@@ -312,7 +313,7 @@ const downloadQR = () => {
   font-weight: 600;
   font-family: 'DM Sans', sans-serif;
   letter-spacing: 0.5px;
-  color: #7c3aed;
+  color: #ffffff;
   background: transparent;
   border: 1px solid rgba(124, 58, 237, 0.4);
   border-radius: 14px;

@@ -25,8 +25,7 @@ body {
 
 #app {
   min-height: 100vh;
-  background:
-    linear-gradient(135deg, #f8f0ff 0%, #fff5f5 25%, #f0f4ff 50%, #f0fffa 75%, #faf0ff 100%);
+  background: linear-gradient(151deg, #4c3f91 0%, #40407d 40%, #1626b1 70%, #100645 100%);
 }
 
 .app {
@@ -42,12 +41,12 @@ body {
   width: 100%;
   max-width: 480px;
   padding: 40px 32px;
-  background: rgba(255, 255, 255, 0.85);
+  background: rgba(30, 23, 68, 0.85);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
   border-radius: 24px;
   box-shadow:
-    0 8px 32px rgba(139, 92, 246, 0.1),
-    0 0 0 1px rgba(255, 255, 255, 0.6);
+    0 8px 32px rgba(0, 0, 0, 0.4),
+    0 0 0 1px rgba(139, 92, 246, 0.2);
 }
 </style>
