@@ -28,8 +28,8 @@ A lightweight, single-page web app for generating QR codes from any text or URL.
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/qr-app.git
-cd qr-app
+git clone https://github.com/martinski74/qr-code-generator.git
+cd qr-code-generator
 
 # Install dependencies
 npm install
