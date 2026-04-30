@@ -2,7 +2,7 @@
 
 A lightweight, single-page web app for generating QR codes from any text or URL. Built with Vue 3 and zero backend dependencies.
 
-**[Live Demo](qr-code-gene-app.netlify.app)**
+**[Live Demo](https://qr-code-gene-app.netlify.app/)**
 
 ## Features
 
